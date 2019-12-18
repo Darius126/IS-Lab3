@@ -28,7 +28,22 @@ r2 = 0.2;
 func1 = zeros(1,20);
 func2 = zeros(1,20);
 
+%apskai?iuojame spindulio fukncijas
 
+for i = 1:20
+    func1(i) = exp(-((x(i)-c1)^2)/(2*r1^2));
+    func2(i) = exp(-((x(i)-c2)^2)/(2*r2^2));
+end
+
+E = 0;
+e = 0;
+er = zeros(1, length(X));
+
+%suskai?iuojams sumas su svoriais
+
+for i = 1:20
+    v(i)=w1*func1(i)+w2*func2(i)+b1;
+end
 
 
 
