@@ -56,8 +56,6 @@ end
 
 l = 0.01;
 
-MaxE = 0.001;
-
 figure(2)
 hold on
 plot(x,func);
