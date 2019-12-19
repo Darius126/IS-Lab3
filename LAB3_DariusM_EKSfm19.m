@@ -21,8 +21,8 @@ b1 = randn(1);
 c1 = x(locs(1,1));
 c2 = x(locs(1,2));
 
-r1 = 0.17;
-r2 = 0.17;
+r1 = 0.1;
+r2 = 0.1;
 
 func1 = zeros(1,20);
 func2 = zeros(1,20);
